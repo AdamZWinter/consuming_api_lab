@@ -33,11 +33,7 @@ public class LoadImagesIntoDB implements ApplicationListener<ContextRefreshedEve
 
         for (File file : imagesDir.listFiles())
         {
-            String relativePath = file.getPath()
-                .replace("src\\main\\resources\\static\\", "")
-                .replace("\\", "/");
-            System.out.println(relativePath);
-
+            String relativePath = "images/" + file.getName();
             imagesRepo.save(new IconFile(relativePath));
         }
     }
