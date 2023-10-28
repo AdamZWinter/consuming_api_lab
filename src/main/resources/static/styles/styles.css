@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+
+/* create a fixed layout with the page */
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: lightsalmon;
+}
+
+
+.card {
+    border: 1px solid red;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    background-color: lightcoral;
+
+    width: 150px;
+    display: block;
+}
+
+section#icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
