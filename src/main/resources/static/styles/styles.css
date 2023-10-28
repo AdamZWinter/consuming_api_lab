@@ -4,7 +4,7 @@ html {
 
 /* create a fixed layout with the page */
 body {
-    width: 1000px;
+    width: 730px;
     margin: auto;
     background-color: lightsalmon;
 }
@@ -17,7 +17,7 @@ body {
     margin: 12px;
     background-color: lightcoral;
 
-    width: 150px;
+    width: 96px;
     display: block;
 }
 
